@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./../components/Header";
-import { PayPalButton } from "react-paypal-button-v2";
+// import { PayPalButton } from "react-paypal-button-v2";
 
 const OrderScreen = ({ match }) => {
   return (
@@ -127,7 +127,7 @@ const OrderScreen = ({ match }) => {
             </table>
 
             <div className="col-12">
-              <PayPalButton amount={345} />
+              {/* <PayPalButton amount={345} /> */}
             </div>
           </div>
         </div>
